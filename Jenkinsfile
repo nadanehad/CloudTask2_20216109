@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Execute Script') {
             steps {
-                sh './script.sh'
+                bat '"C:\\Program Files\\Git\\bin\\bash.exe" ./script.sh'
             }
         }
     }
